@@ -1,0 +1,121 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+conda_env/
+py310/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+**/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data Files (large datasets)
+*.csv
+*.json
+*.jsonl
+*.tsv
+*.txt
+twitter_sentiment_dataset.csv
+
+# Model Files (large trained models)
+*.pt
+*.pth
+*.bin
+*.h5
+*.pb
+*.onnx
+*.safetensors
+models/
+model_output/
+checkpoints/
+saved_models/
+
+# Output & Results
+results/
+outputs/
+output/
+figures/
+plots/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Specific output folders
+overlay_analysis/
+token_overlap_results/
+explanation_translation_results/
+ctam_analysis/
+calibration_triage/
+error_detection_results/
+
+# Cache
+.cache/
+*.cache
+*_cache/
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyTorch
+*.ckpt
+
+# Transformers cache
+.transformers_cache/
+transformers_cache/
+
+# HuggingFace
+.huggingface/
+
+# Except: Keep important files
+!PROJECT_SUMMARY.md
+!README.md
+!requirements.txt
+!*.ipynb
+!utils.py
