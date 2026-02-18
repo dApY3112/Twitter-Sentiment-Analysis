@@ -36,7 +36,7 @@ pip install captum  # for XAI
 pip install langid  # for language detection audit (optional)
 ```
 
-**GPU note:** Code optimized cho GTX 1650 (4GB VRAM). Nếu OOM, giảm `BATCH_SIZE` và `SAMPLE_SIZE` trong notebooks.
+**GPU note:** Code optimized cho. Nếu OOM, giảm `BATCH_SIZE` và `SAMPLE_SIZE` trong notebooks.
 
 ---
 
@@ -84,7 +84,7 @@ Notebook: `03_train_model.ipynb`
 - Fine-tune `distilbert-base-multilingual-cased` trên EN train set
 - Early stopping, fp16, batch size 8
 
-**Config tối ưu GTX 1650:**
+**Config tối ưu    :**
 ```python
 MAX_LENGTH = 128
 BATCH_SIZE = 8 
@@ -317,7 +317,7 @@ For questions about this code or paper, contact: [your email]
 **Good luck với paper!** 🚀
 
 Key advantages của approach này:
-- Nhẹ (chạy được trên GTX 1650)
+- Nhẹ (chạy được trên    )
 - Novel (explanation consistency chưa nhiều paper đo)
 - Measurable (2 metrics rõ ràng: CTAM + overlap)
 - Practical (insights cho security/CTI applications)
